@@ -1,0 +1,6 @@
+#/nginx/tasks/php.yml
+-—
+- name: Install php
+apt:
+name=php
+state=latest

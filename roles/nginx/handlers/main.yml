@@ -1,0 +1,8 @@
+#/nginx/handlers/main.yml
+-—
+- name: nginx systemd
+systemd:
+name: nginx
+enabled: yes
+state: started
+

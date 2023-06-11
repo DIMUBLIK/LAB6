@@ -1,0 +1,7 @@
+#play.yml
+-—
+- hosts: all
+become: true
+roles:
+- php
+- nginx
